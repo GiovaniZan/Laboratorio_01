@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Exercicio1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Exercicio2.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Exercicio3.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Laboratorio_01.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
