@@ -12,19 +12,19 @@ __iar_program_start
         
 
 main    
-        MOV R0, #0X55
-        MOV R1, R0, LSL #16
-        MOV R2, R1, LSR #8
-        MOV R3, R2, ASR #4
-        MOV R4, R3, ROR #2
-        MOV R5, R4, RRX
+//        MOV R0, #0X55
+//        MOV R1, R0, LSL #16
+//        MOV R2, R1, LSR #8
+//        MOV R3, R2, ASR #4
+//        MOV R4, R3, ROR #2
+//        MOV R5, R4, RRX
 
-//        MVN R0, #0X55
-//        MVN R1, R0, LSL #16
-//        MVN R2, R1, LSR #8
-//        MVN R3, R2, ASR #4
-//        MVN R4, R3, ROR #2
-//        MVN R5, R4, RRX
+        MVN R0, #0X55
+        MVN R1, R0, LSL #16
+        MVN R2, R1, LSR #8
+        MVN R3, R2, ASR #4
+        MVN R4, R3, ROR #2
+        MVN R5, R4, RRX
 
         B       main
 

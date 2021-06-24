@@ -11,20 +11,29 @@
 __iar_program_start
         
 main    
-//        MOV R0, #-0x56
-//        MOV R1, #0x04
-//        MOV R2, R0, LSL R1
-//        MOV R3, R0, LSR R1
-//        MOV R4, R0, ASR R1
-//        MOV R5, R0, ROR R1
+        MOV R0, #-0x56
+        MOV R1, #0x04
+        MOV R2, R0, LSL R1
+        MOV R3, R0, LSR R1
+        MOV R4, R0, ASR R1
+        MOV R5, R0, ROR R1
 
-        MOVS R0, #-0x56
-        MOVS R1, #0x04
-        MOVS R2, R0, LSL R1
-        MOVS R3, R0, LSR R1
-        MOVS R4, R0, ASR R1
-        MOVS R5, R0, ROR R1
-        B       main
+//        MOVS R0, #-0x56
+//        MOVS R1, #0x04
+//        MOVS R2, R0, LSL R1
+//        MOVS R3, R0, LSR R1
+//        MOVS R4, R0, ASR R1
+//        MOVS R5, R0, ROR R1
+
+//        MVN R0, #-0x56
+//        MVN R1, #0x04
+//        MVN R2, R0, LSL R1
+//        MVN R3, R0, LSR R1
+//        MVN R4, R0, ASR R1
+//        MVN R5, R0, ROR R1
+
+
+      B       main
 
         ;; Forward declaration of sections.
         SECTION CSTACK:DATA:NOROOT(3)
