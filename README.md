@@ -179,3 +179,32 @@ Nenhuma das instruções alterou o conteúdo do registrador APSR.
 
 
 
+## Exercício 4
+
+- MOV R0, #0x5678
+    - Coloca o valor  #0x5678 no registrador  R0
+- MOVT R0, #0x1234
+     - Coloca o valor  #0x1234 nos 16 bits superiores do registrador R0
+- MOVT R1, #0x1234
+    - Coloca o valor  #0x1234 nos 16 bits superiores do registrador R1
+- MOV R1, #0x5678
+    - Coloca o valor  #0x5678 no registrador  R1, apagando o conteúdo dos 16 bits superiores do registrador R1!
+> Existe direfença. A ordem é fundamental para a movimentação de valores de mais de 16 bits. O valor dos bits menos significativos devem ser atribuídos antes dos bits mais significativos.
+
+
+
+## Exercício 5
+Forma mais eficiente de atribuição.
+- R0 = 0
+    - MOV R0, #0x00
+- R1 = 200
+    - MOV R1, #200
+- R2 = 0x1234
+    - MOV R2, #0x1234
+- R3 = 0xffff ff00
+    - MVN R3, #0xff
+- R4 = 0xabcd ef00
+    - MOV R4 #0xef00
+    - MOVT R4, #0xabcd
+
+
