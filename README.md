@@ -196,9 +196,9 @@ Nenhuma das instruções alterou o conteúdo do registrador APSR.
 ## Exercício 5
 Forma mais eficiente de atribuição.
 - R0 = 0
-    - MOV R0, #0x00
+    - MOVS R0, #0x00
 - R1 = 200
-    - MOV R1, #200
+    - MOVS R1, #200
 - R2 = 0x1234
     - MOV R2, #0x1234
 - R3 = 0xffff ff00
